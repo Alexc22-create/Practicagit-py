@@ -17,4 +17,5 @@ if repos:
     print("Repositorios Git encontrados:")
     for idx, repo in enumerate(repos):
         print(f"{idx + 1}. {repo}")
-    
+else:
+    print("No se encontraron repositorios Git en el directorio especificado.")
