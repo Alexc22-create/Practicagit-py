@@ -19,3 +19,5 @@ if repos:
         print(f"{idx + 1}. {repo}")
 else:
     print("No se encontraron repositorios Git en el directorio especificado.")
+    
+## Tarea: Crea ramas de DEv, QE (Sin commits pero con los cambios Ramas addicionales: TT001,TT002,TT003,TT004)
